@@ -1,4 +1,8 @@
 h1{
     color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color-scheme: blue red green ;}
+    font-family: fantasy; /
+}
+
+h2{ color:aqua;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
