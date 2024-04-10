@@ -1,53 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<header>
     <link rel="stylesheet" href="CSS/global.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>survey</title>
-    <nav> 
-        <!-- achor tags for navigation -->
-        <a href="index.html"> Home </a>  
-        <a href="about_us.html" > About Us </a>
-        <a href="https://rickroll.it/rickroll.mp4" target="_blank" > Contact us </a>
-    </nav>  
-</header>
+<head>
+    <header>
+        <h1> 
+            Survey
+        </h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>survey</title>
+        <nav> 
+            <!-- achor tags for navigation -->
+            <a href="index.html"> Home </a>  
+            <a href="about_us.html" > About Us </a>
+            <a href="https://rickroll.it/rickroll.mp4" rel="noopener" > Contact us </a>
+        </nav>  
+    </header>
+</head>
+
 <body>
     <main>
+        <br>
         <article>
-            <h1>
-                survey
-            </h1>
-        </article>
-        <article>
-            <style>.center{display: block; margin-left: auto;margin-right: auto;}</style>
                 <img src="Images/tubeman.gif" height="300" width="300" class="center"></td>
             <h4>
-                give us your information
+            give us your information
             </h4>
         </article>
+       
         <article>
-        <form action="confirmation.html">
-            <label for="name">*Name: </label><br>
-            <input type="text" id="name" name="name">
-            <br>
-            <lable>Lunch codes</lable><br>
-            <input required type="number" id="lunch codes" name="lunch codes" maxlength="08">
-            <br>
-                <lable>email</lable><br>
-            <input type="email" id="email" name="email">
-            <br>
-                <label>you like Pizza?</label>
-            <input type="radio" value="yes" id="pizza yes" name="button1"> yes
-            <input type="radio" value="yes" id="pizza no" name="button1"> nah 
-                <br><br>
-                What you think? 
+            <form action="confirmation.html">
+                <label for="name">*Name: </label><br>
+                <input type="text" id="name" name="name">
                 <br>
-            <textarea cols="50" rows="8" maxlength="5"></textarea>
-            <br>
-            <input type="submit">
-        </form>
-    </article>
-</main>
+                <label>Lunch codes</label><br>
+                <input required type="number" id="lunch codes" name="lunch codes" maxlength="08" >
+                <br>
+                    <label>email</label><br>
+                <input type="email" id="email" name="email">
+                <br><br>
+                <style>h6{font-size: large;margin: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 100;}</style>
+                    <label>you like pizza</label>
+                    <br>
+                    <h6>
+                <input type="radio" value="yes" id="pizza yes" name="button1"> yes
+                <input type="radio" value="yes" id="pizza no" name="button1"> nah 
+                  </h6>  
+                  <br><br>
+                   <label>What you think? </label> 
+                    <br>
+                <textarea cols="50" rows="8" maxlength="5"></textarea>
+                <br>
+                <input type="submit">
+            </form>
+        </article>
+    </main>
 </body>
+
+
 </html>
