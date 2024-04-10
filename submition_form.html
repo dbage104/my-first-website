@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
+    <link rel="stylesheet" href="CSS/global.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>survey</title>
-    <!-- home button -->
-    <a href="index.html"> Home </a>
-</head>
+    <nav> 
+        <!-- achor tags for navigation -->
+        <a href="index.html"> Home </a>  
+        <a href="about_us.html" > About Us </a>
+        <a href="https://rickroll.it/rickroll.mp4" target="_blank" > Contact us </a>
+    </nav>  
+</header>
 <body>
-    <h1>survey</h1>
-    <h2>
-        <!-- learning tables -->
-    <table>
-        <tr><style> </style>
-            <th>test 1</th>
-            <th>test 2</th>
-            <th>test 3</th>
-            <tr>
-                <td>data1</td>
-                <td>data2</td>
-                <td>data 3</td>
-            </tr>
-            <tr>
-                <td>tesing testing 1</td>
-                <td> test data 2</td>
-                <td> <img src="Images/about Waky.png" height="100" width="100"></td>
-            </tr>
-        </tr>
-    </table>
-</h2>
-<br><br>
-    <h1>give us your information</h1>
-<form action="confirmation.html">
-    <labe for="name">*Name: </labe><br>
-    <input type="text" id="name" name="name">
-    <br>
-    <lable>Lunch codes</lable><br>
-    <input required type="number" id="lunch codes" name="lunch codes" maxlength="08">
-    <br>
-    <lable>email</lable><br>
-    <input type="email" id="email" name="email">
-    <br>
-    <label>you like Pizza?</label>
-    <input type="radio" value="y" id="pizza yes" name="yes"> yes
-    <input type="radio" value="n" id="pizza no" name="nah"> nah 
-    <br><br>
-    What you think? <br>
-    <textarea cols="50" rows="8" maxlength="5"></textarea>
-    <br>
-    <input type="submit">
-</form>
+    <main>
+        <article>
+            <h1>
+                survey
+            </h1>
+        </article>
+        <article>
+            <style>.center{display: block; margin-left: auto;margin-right: auto;}</style>
+                <img src="Images/tubeman.gif" height="300" width="300" class="center"></td>
+            <h4>
+                give us your information
+            </h4>
+        </article>
+        <article>
+        <form action="confirmation.html">
+            <label for="name">*Name: </label><br>
+            <input type="text" id="name" name="name">
+            <br>
+            <lable>Lunch codes</lable><br>
+            <input required type="number" id="lunch codes" name="lunch codes" maxlength="08">
+            <br>
+                <lable>email</lable><br>
+            <input type="email" id="email" name="email">
+            <br>
+                <label>you like Pizza?</label>
+            <input type="radio" value="yes" id="pizza yes" name="button1"> yes
+            <input type="radio" value="yes" id="pizza no" name="button1"> nah 
+                <br><br>
+                What you think? 
+                <br>
+            <textarea cols="50" rows="8" maxlength="5"></textarea>
+            <br>
+            <input type="submit">
+        </form>
+    </article>
+</main>
 </body>
 </html>

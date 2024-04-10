@@ -2,8 +2,12 @@ header{background-color: blue;} header h1{margin: 0; text-align: center; color: 
 nav{background-color:blueviolet ; text-align: center;padding: .5%;}
  nav a{color:whitesmoke; margin-right: 1%; font-size: larger }
 nav a:hover{color:burlywood;} 
- main{width: 80%; margin: 0 auto;;}
+ main{width: 80%; margin: 0 auto;}
  main article h3{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: darkorchid; font-size: lager;}
+ main article h2{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: darkorchid; font-size: lager;}
+ main article h1{margin: 0 auto;text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:blueviolet; font-size:300%; text-decoration: underline; text-decoration-color: black; background-color: whitesmoke ;}
+ main article h4{text-align: center; font-family:'Courier New', Courier, monospace; color:black; font-size: 200%;text-decoration: underline; text-decoration-color: black;}
+ main article form{width: 90%; margin: 0 auto; text-align: center;}
 
 
 
