@@ -4,20 +4,38 @@
   <header> 
     <title>waky Willy's emporium</title>
         <!-- css global settings -->
-        <link rel="stylesheet" href="CSS/global.css">
+             <link rel="stylesheet" href="CSS/bootstrap.min.css">
+             <link rel="stylesheet" href="CSS/global.css">
+   
         <h1>WaKy Willy's Emporium</h1>
   </header> 
     <body>
-       
-            <nav>
+        <!-- nav bar from bootstrap -->
+        <nav class="navbar navbar-expand-lg-bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="about_us.html">AboutUs</a>
+                  <a class="nav-link" href="submition_form.html">Survey</a>
+                  <a class="nav-link" href="https://rickroll.it/rickroll.mp4" rel="noopener">ContactUS</a>
+                
+                </div>
+              </div>
+            </div>
+          </nav>
+            <!-- <nav> -->
                 <!--anchor tags for Navigation bar-->
-                <a href="about_us.html" > About Us </a>
+                <!-- <a href="about_us.html" > About Us </a>
                 <a href="submition_form.html" >Survey</a>   
                 <a href="https://rickroll.it/rickroll.mp4" rel="noopener" > Contact us </a>
-            </nav>       
+            </nav>        -->
          <main> 
             <article>
-                <!-- <p>hekkkjdfhs</p> -->
+                
                 <P>
                     <hr>
                     <h3>Welcome to waky willy's inflatable tube mans wonder emporium where we have small,tall,wide,narrow and haunted waky inflatable tube men<br> 
@@ -42,6 +60,7 @@
 
             <!-- scripts -->
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+            <script src="java_script/bootstrap.min.js"></script>
             <script src="java_script/global.js"></script>
 
     </body>
