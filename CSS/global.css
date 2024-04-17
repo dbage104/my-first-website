@@ -2,19 +2,33 @@
 header{background-color: blue;} header h1{margin: 0; text-align: center; color: whitesmoke}
 
 /* nav bar */
-nav{background-color:blueviolet ; text-align: center;padding: .5%;}
- nav a{color:whitesmoke; margin-right: 1%; font-size: larger }
-nav a:hover{color:burlywood;} 
+/* .nav{background-color:blueviolet ; text-align: center;padding: .5%;} */
+ /* nav a{color:whitesmoke; margin-right: 1%; font-size: larger } */
+/* nav a:hover{color:burlywood;}  */
 
 /* main */
-main{width: 80%; margin: 0 auto;}
+  main{width: 80%; margin: 0 auto;}
  main article h3{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: darkorchid; font-size: lager;}
  main article h2{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: darkorchid; font-size: lager;}
- main article h1{margin: 0 auto;text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color:blueviolet; font-size:300%; text-decoration: underline; text-decoration-color: black; background-color: whitesmoke ;}
- main article h4{text-align: center; font-family:'Courier New', Courier, monospace; color:black; font-size: 200%;text-decoration: underline; text-decoration-color: black;}
- main article form{width: 90%; margin: 0 auto; text-align: center;}
- main article form label{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+ main article h1{margin: 0 auto;text-align: center;  font-size:300%; text-decoration: underline; text-decoration-color: black;}
+  
+ main article h4{text-align: center;; font-size: 200%;text-decoration: underline; text-decoration-color: black;}
+ /* main article form{width: 90%; margin: 0 auto; text-align: center;}
+ main article form label{text-align: center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}  */
 
+/* buttons */
+.btn-outline-custom{  
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: darkorchid;
+    --bs-btn-bg: white;
+    --bs-btn-border-color:darkorchid;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: darkorchid;
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};}
 
  /* class */
  .center{display: block; margin-left: auto;margin-right: auto;} 

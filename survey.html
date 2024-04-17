@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/global.css" />
+<head>
+    <header>
+        <h1> 
+            Survey
+        </h1>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey</title>
+        
+        <nav class="navbar navbar-expand-lg" style="background-color:blueviolet;" data-bs-theme="dark" ;>
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="about_us.html">AboutUs</a>
+                  <a class="nav-link" href="survey.html">Survey</a>
+                  <a class="nav-link" href="https://rickroll.it/rickroll.mp4" rel="noopener">ContactUS</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav> 
+            achor tags for navigation
+            <a href="index.html"> Home </a>  
+            <a href="about_us.html" > About Us </a>
+            <a href="https://rickroll.it/rickroll.mp4" rel="noopener" > Contact us </a>
+        </nav>   -->
+    </header>
+</head>
+
+<body>
+    <main class="container">
+        <br>
+        <article>
+                <img src="Images/tubeman.gif" height="300" width="300" class="center"></td>
+            
+            <h4 class="center">
+            give us your information
+            </h4>
+        </article>
+       
+        <article>
+            <form action="confirmation.html" id="survey form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name: </label><br>
+                    <input type="text" id="name" name="name" class="form-control" placeholder=" Ex: john smith">
+                </div>
+                <div class="mb-3">   
+                    <label for="number" class="form-label">*Lunch codes</label><br>
+                    <input required type="number" id="lunch-codes" name="lunch codes" maxlength="08" class="form-control" placeholder="42069">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">email</label><br>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="John@gmail.com">
+                
+                  <div>
+
+                
+                 <div class="form-check">
+                    <label for="radio" >you like pizza</label> <br>
+                    <label for="pizza-yes" class="form-check-label">yes</label>
+                    <input type="radio" value="yes" id="pizza-yes" name="button1" class="form-check-input">
+                 </div>
+                    
+                <div class="form-check">
+                    <label for="pizza-no" class="form-check-label">Nah</label> 
+                    <input type="radio" value="yes" id="pizza-no" name="button1" class="form-check-input"> 
+                  </div>
+
+                 <br>
+                  <div class="mb-3">
+                   <label class="form-label">What you think? </label> 
+                    <br>
+                <textarea cols="50" rows="8" maxlength="5" class="form-control"></textarea>
+                  </div>
+                  
+                <br> 
+                <div class="d-grid gap-3">  
+                <input type="submit" class="btn btn-outline-custom btn-lg">
+                <button type="button" class="btn btn-outline-custom btn " onclick="clearform()" >Clear</button>
+                    </div>
+
+            </form>
+        </article>
+    </main>
+    <!-- scripts -->
+    <script src="java_script/jquary.min.js"></script>
+    <script src="java_script/bootstrap.min.js"></script>
+    <script src="java_script/global.js"></script>
+
+</body>
+
+
+</html>
